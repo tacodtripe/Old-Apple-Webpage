@@ -21,10 +21,6 @@ Find the live version of this project here [live version](https://raw.githack.co
 - Twitter: [@raul_figueroa17](https://twitter.com/raul_figueroa17)
 - Linkedin: [linkedin](https://www.linkedin.com/in/luis-raul-figueroa-soto-63411118a/)
 
-## Getting Started
-
-To use the project in your web page clone it by "git clone" and if there is some issues please contact us
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
