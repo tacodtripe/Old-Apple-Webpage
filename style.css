@@ -4,15 +4,21 @@
     margin: 0;
 }
 
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
 main {
     background: url("images/main-background.png") no-repeat; 
     background-size: 100% 100%;
     display: flex;
     flex-direction: column;
+    height: 70vh;
 }
 
 main nav {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(8, auto) 15%;
@@ -21,11 +27,17 @@ main nav {
     border-radius: 7px;
     justify-items: center;
     align-items: center;
+    position: relative;
+    top: 20%;
+    height: 35px;
 }
 
 main nav a {
     display: block;
-    padding: 2% 15%;
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid #828282;
+    padding: 5% 0;
 }
 
 main a {
@@ -55,4 +67,33 @@ footer a {
     background: linear-gradient(#a6a4a4 50% ,#888 55%, #999);
     border: 1px solid #d5d5d5;
     border-radius: 11px;
+    padding-left: 1.2em;
+}
+
+#main-p1 {
+    display: block;
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    font-size: 4vw;
+}
+
+#main-p2 {
+    display: block;
+    position: relative;
+    top: 35%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    text-align: center;
+    width: 80%;
+}
+
+#main-p3 {
+    display: block;
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    width: 50%;
+    text-align: center;
 }
