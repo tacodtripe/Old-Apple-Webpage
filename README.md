@@ -1,4 +1,4 @@
-# Old Apple Webpage Clone
+# Old Apple webpage clone
 
 > Fourth project in the HTML/CSS module.
 
