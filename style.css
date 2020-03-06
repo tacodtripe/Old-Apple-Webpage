@@ -37,7 +37,7 @@ main nav a {
     width: 100%;
     text-align: center;
     border-right: 1px solid #828282;
-    padding: 5% 0;
+    padding: 4% 0;
 }
 
 main a {
@@ -50,8 +50,14 @@ footer a {
     text-decoration: none;
 }
 
+#nav-logo {
+    font-size: 24px;
+    padding: 0;
+}
+
 #search-input {
     position: relative;
+    margin-left: 3%;
 }
 
 #search-input i {
