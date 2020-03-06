@@ -97,3 +97,14 @@ footer a {
     width: 50%;
     text-align: center;
 }
+
+#models-images {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 2px;
+    margin: 2px 0;
+}
+
+#models-images a img {
+    width: 100%;
+}
