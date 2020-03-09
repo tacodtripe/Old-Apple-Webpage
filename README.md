@@ -2,7 +2,7 @@
 
 > Fourth project in the HTML/CSS module.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.jpg)
 
 This is a microverse HTML/CSS project, I was required to exercise the use of linear-gradient colors to style an element.
 I managed to create a clone of the old Apple webpage - Link to the original page is right here [Old apple webpage](http://archive.fo/UW4oR) satisfying all the requirements.
