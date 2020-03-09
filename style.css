@@ -4,18 +4,11 @@
   margin: 0;
 }
 
-html {
-
-}
-
 body {
-  width: 80%;
-  margin: 0 auto;
-  border: solid 1px #888;
-  min-width: 760px;
-  min-height: 500px;
-  max-width: 1350px;
-  max-height: 1000px;
+  display: grid;
+  grid-template-rows: minmax(420px, 60vh) minmax(175px, 25vh) minmax(105px, 15vh);
+  min-width: 945px;
+  min-height: 700px;
 }
 
 main {
@@ -23,8 +16,7 @@ main {
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
-  height: 65vh;
-  min-height: 435px;
+  justify-content: space-evenly;
 }
 
 main nav {
@@ -36,9 +28,6 @@ main nav {
   border-radius: 7px;
   justify-items: center;
   align-items: center;
-  position: relative;
-  top: 20%;
-  height: 35px;
   box-shadow: 1px 1px #757575;
   border: 1px solid #888;
 }
@@ -89,16 +78,12 @@ main nav a {
 
 #main-p1 {
   display: block;
-  position: relative;
-  top: 30%;
   margin: 0 auto;
   font-size: 4vw;
 }
 
 #main-p2 {
   display: block;
-  position: relative;
-  top: 35%;
   margin: 0 auto;
   font-size: 2.5vw;
   text-align: center;
@@ -107,8 +92,6 @@ main nav a {
 
 #main-p3 {
   display: block;
-  position: relative;
-  top: 40%;
   margin: 0 auto;
   font-size: 1.5em;
   width: 50%;
@@ -118,9 +101,7 @@ main nav a {
 #models-images {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-template-rows: 20vh;
-  grid-column-gap: 2px;
-  margin: 2px 0;
+  grid-template-rows: 25vh;
 }
 
 #models-images a img {
@@ -130,29 +111,31 @@ main nav a {
 
 footer {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: minmax(6vh, auto);
-}
-
-#footer-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  grid-template-columns: minmax(473px, 50vw) minmax(473px, 50vw);
+  grid-template-rows: 6vh auto;
   color: rgb(110, 110, 110);
-  font-size: 80%;
-  margin-left: 1%;
 }
 
-#footer-left:last-child {
-  margin-top: 3%;
+#footer-r1c1 {
+  grid-row: 1;
+  grid-column: 1;
+  align-self: end;
+  justify-self: center;
+  width: 83%;
+}
+
+#footer-r2c1 {
+  grid-row: 2;
+  grid-column: 1;
+  justify-self: center;
+  width: 83%;
+  margin-top: 2%;
 }
 
 #footer-rigth {
-  display: flex;
-  align-items: center;
-  font-size: 1.4vh;
-  color: rgb(110, 110, 110);
-  margin-left: 1%;
+  grid-row: 1;
+  grid-column: 2;
+  align-self: end;
 }
 
 #footer-rigth a {
